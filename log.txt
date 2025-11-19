@@ -1,2 +1,4 @@
+6486c77 Task 1.1 Fully cleaned the code
+9196eb8 Task 1.2 Updated git log to log.txt
 0185a52 Task 1.1 Cleaned the code
 4267ba2 Initial commit
