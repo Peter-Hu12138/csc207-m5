@@ -55,12 +55,12 @@ public class StatementPrinter {
     private int getTotalVolumeCredits() {
         int result = 0;
         for (Performance singlePerformance : getInvoice().getPerformances()) {
-            result += getTotalVolumeCredits(singlePerformance);
+            result += getVolumeCredits(singlePerformance);
         }
         return result;
     }
 
-    private int getTotalVolumeCredits(Performance singlePerformance) {
+    private int getVolumeCredits(Performance singlePerformance) {
         // add volume credits
         int result = 0;
         result += Math.max(singlePerformance.getAudience() - Constants.BASE_VOLUME_CREDIT_THRESHOLD, 0);
