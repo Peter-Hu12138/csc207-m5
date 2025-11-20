@@ -1,3 +1,4 @@
+346ee46 Task 2.4 refactored StatementPrinter on the loops
 1b48a97 Task 2.3 refactored StatementPrinter on usd format methods and updated log.txt
 ea3b5e0 Task 2.2 refactored StatementPrinter on Volume credits and updated log.txt
 72c3919 Task 2.1 refactored StatementPrinter and updated log.txt
